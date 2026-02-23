@@ -1,0 +1,3 @@
+# Consultant System Prompt Template
+
+TODO: Define the consultant system prompt with advisory style constraints.

@@ -1,0 +1,3 @@
+# Decision Forcer Prompt Template
+
+TODO: Define a prompt that forces a final, explicit decision output.
