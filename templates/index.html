@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Playground</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; background: #f7f7fb; color: #222; }
+    h1 { margin-bottom: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+    .card { background: #fff; border-radius: 8px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    textarea, input { width: 100%; margin: 8px 0; padding: 8px; box-sizing: border-box; }
+    button { background: #1663d6; color: white; border: none; padding: 8px 12px; border-radius: 6px; cursor: pointer; }
+    pre { background: #0b1020; color: #d6e0ff; padding: 10px; border-radius: 6px; white-space: pre-wrap; }
+    a { color: #1663d6; }
+  </style>
+</head>
+<body>
+  <h1>Agent Endpoint Playground</h1>
+  <div class="grid">
+    <section class="card">
+      <h2>Job Machine</h2>
+      <textarea id="jd_text" rows="6" placeholder="Paste JD text..."></textarea>
+      <button onclick="runJob()">Run /job</button>
+      <pre id="job_out"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Consultant</h2>
+      <input id="problem" placeholder="Problem" />
+      <textarea id="context" rows="4" placeholder="Context"></textarea>
+      <button onclick="runConsultant()">Run /consultant</button>
+      <pre id="consult_out"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Analyst</h2>
+      <textarea id="snapshot" rows="6" placeholder="Company snapshot"></textarea>
+      <button onclick="runAnalyst()">Run /analyst</button>
+      <pre id="analyst_out"></pre>
+      <div id="xlsx_link"></div>
+    </section>
+
+    <section class="card">
+      <h2>Budget + Verify Events</h2>
+      <button onclick="runBudget()">GET /budget</button>
+      <button onclick="runVerify()">GET /verify-events</button>
+      <pre id="meta_out"></pre>
+    </section>
+  </div>
+
+  <script>
+    async function postJson(path, payload) {
+      const res = await fetch(path, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      return await res.json();
+    }
+
+    async function runJob() {
+      const data = await postJson('/job', { jd_text: document.getElementById('jd_text').value });
+      document.getElementById('job_out').textContent = JSON.stringify(data, null, 2);
+    }
+
+    async function runConsultant() {
+      const data = await postJson('/consultant', {
+        problem: document.getElementById('problem').value,
+        context: document.getElementById('context').value,
+      });
+      document.getElementById('consult_out').textContent = JSON.stringify(data, null, 2);
+    }
+
+    async function runAnalyst() {
+      const data = await postJson('/analyst', {
+        company_snapshot: document.getElementById('snapshot').value,
+      });
+      document.getElementById('analyst_out').textContent = JSON.stringify(data, null, 2);
+      document.getElementById('xlsx_link').innerHTML = data.xlsx_link
+        ? `<a href="${data.xlsx_link}" target="_blank">Download XLSX</a>`
+        : '';
+    }
+
+    async function runBudget() {
+      const res = await fetch('/budget');
+      const data = await res.json();
+      document.getElementById('meta_out').textContent = JSON.stringify(data, null, 2);
+    }
+
+    async function runVerify() {
+      const res = await fetch('/verify-events');
+      const data = await res.json();
+      document.getElementById('meta_out').textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>
