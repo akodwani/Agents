@@ -1,0 +1,3 @@
+# Job System Prompt Template
+
+TODO: Define the job-machine system prompt and operating rules.

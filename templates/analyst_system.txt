@@ -1,0 +1,3 @@
+# Analyst System Prompt Template
+
+TODO: Define the analyst system prompt for evidence-first analysis.
