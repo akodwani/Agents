@@ -1,0 +1,14 @@
+Decision Forcer (Mandatory Final Step)
+1) Kill 2 alternatives:
+   - Kill: <alternative_1>
+   - Kill: <alternative_2>
+2) Pick 1 path with no hedging:
+   - Choose: <single_path>
+3) Cost of waiting:
+   - <explicit_cost_of_delay>
+4) Falsifiability (what changes mind):
+   - <clear_disconfirming_evidence_and_threshold>
+5) Milestones (3 max):
+   - M1: <milestone_1>
+   - M2: <milestone_2>
+   - M3: <milestone_3>
