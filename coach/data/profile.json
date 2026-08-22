@@ -1,0 +1,21 @@
+{
+  "name":"Avi","age":23,"heightIn":71,"sex":"M",
+  "startWeightLb":211,"startDate":"2026-08-15",
+  "goalWeightLb":170,"goalBodyFatPct":11.5,"deadline":"2026-12-01",
+  "aesthetic":"lean-aesthetic (SRK), not mass",
+  "targets":{"kcal":1800,"proteinG":180,"fatG":55,"fiberG":30},
+  "floors":{"kcal":1600,"proteinG":180},
+  "split":{"1":"Push+Abs","2":"Pull","3":"Legs","4":"Push+Abs","5":"Pull","6":"Legs","0":"Rest/Cardio"},
+  "gym":"Crunch 38th St, NYC",
+  "cardioMenu":["sprint intervals","Zone 2 jog","lactate threshold","treadmill stamina progression","pickleball (flare risk)"],
+  "injuries":[{"site":"QL / low back","rule":"NO deadlifts, good mornings, or heavy loaded rotation. Ever. Pickleball/soccer are flare triggers."}],
+  "diet":{
+    "style":"low-FODMAP leaning","avoid":["garlic","onion","lentils/dal (limit)"],
+    "fixedMeals":[
+      {"name":"GF penne tandoori chicken pesto","kcal":620,"p":52},
+      {"name":"Saag paneer chicken-paneer basmati","kcal":580,"p":46}],
+    "readyToEat":[{"name":"Chipotle bowl double chicken rice no beans","kcal":700,"p":68}],
+    "rule":"Never prescribe weeknight cooking. Sunday batch prep only (28 containers)."},
+  "supplements":["creatine 5g AM","Mg glycinate 400mg PM","D3+K2","omega-3"],
+  "life":"Corporate finance, Midtown NYC. High stress, long days. Stress is a measured variable, not an excuse."
+}

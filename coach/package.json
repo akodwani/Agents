@@ -1,0 +1,22 @@
+{
+  "name": "coach",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "COACH — Claude Code is the agent. The repo is the brain.",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "derive": "tsx scripts/derive.ts",
+    "rules": "tsx scripts/rules.ts",
+    "log": "tsx scripts/log.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "vitest": "^4.1.11"
+  }
+}

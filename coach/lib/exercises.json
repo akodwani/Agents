@@ -1,0 +1,2236 @@
+{
+  "trackedLifts": [
+    "Incline DB Press",
+    "Weighted Pull-up",
+    "Chest-Supported Row",
+    "Hack Squat",
+    "Barbell Hip Thrust",
+    "Seated DB OHP"
+  ],
+  "exercises": [
+    {
+      "name": "Incline DB Press",
+      "pattern": "horizontal_push",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Incline Machine Press",
+        "Smith Machine Incline Press",
+        "Flat DB Press"
+      ],
+      "cue": "Bench at 30 degrees, shoulder blades pinned down and back before the dumbbells move. Drive the elbows toward each other so the upper chest, not the front delt, takes the load.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Flat DB Press",
+      "pattern": "horizontal_push",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Barbell Bench Press",
+        "Chest Press Machine",
+        "Incline DB Press"
+      ],
+      "cue": "Feet planted, ribs down, wrists stacked over elbows at the bottom. Stop one inch short of lockout to keep tension on the chest.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Barbell Bench Press",
+      "pattern": "horizontal_push",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Flat DB Press",
+        "Smith Machine Bench Press",
+        "Chest Press Machine"
+      ],
+      "cue": "Bar over the base of the neck, tuck elbows to about 45 degrees on the way down. Push yourself away from the bar and feel the mid-chest, not the shoulders.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        5,
+        8
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Incline Barbell Press",
+      "pattern": "horizontal_push",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Incline DB Press",
+        "Smith Machine Incline Press",
+        "Incline Machine Press"
+      ],
+      "cue": "Bench at 30 degrees, bar path to the collarbone not the throat. Keep the shoulder blades retracted the whole set so the upper chest owns the rep.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        5,
+        8
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Incline Machine Press",
+      "pattern": "horizontal_push",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Incline DB Press",
+        "Smith Machine Incline Press",
+        "Chest Press Machine"
+      ],
+      "cue": "Set the seat so the handles line up with the top of your chest. Squeeze the handles together as you press and hold the top half-second.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Chest Press Machine",
+      "pattern": "horizontal_push",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Flat DB Press",
+        "Incline Machine Press",
+        "Barbell Bench Press"
+      ],
+      "cue": "Seat height so handles sit at nipple line, back flat against the pad. Press and feel the sternum close, not the elbows lock.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Smith Machine Incline Press",
+      "pattern": "horizontal_push",
+      "equipment": "smith",
+      "contraindicated": [],
+      "substitutes": [
+        "Incline DB Press",
+        "Incline Machine Press",
+        "Incline Barbell Press"
+      ],
+      "cue": "Slide the bench so the bar tracks over the upper chest, not the face. Fixed path means you can chase the stretch at the bottom without balancing.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Smith Machine Bench Press",
+      "pattern": "horizontal_push",
+      "equipment": "smith",
+      "contraindicated": [],
+      "substitutes": [
+        "Barbell Bench Press",
+        "Flat DB Press",
+        "Chest Press Machine"
+      ],
+      "cue": "Bench positioned so the bar meets the mid-chest, feet wide. Lower slow, touch, and drive without bouncing off the ribs.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Weighted Push-up",
+      "pattern": "horizontal_push",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Chest Press Machine",
+        "Flat DB Press",
+        "Dip"
+      ],
+      "cue": "Plate on the upper back, body one straight line from ear to heel. Push the floor away and spread the shoulder blades hard at the top.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        8,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Dip",
+      "pattern": "horizontal_push",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Assisted Dip Machine",
+        "Weighted Push-up",
+        "Chest Press Machine"
+      ],
+      "cue": "Lean the torso forward about 30 degrees and keep the elbows tracking back. Go to a comfortable stretch only; chest should burn, shoulders should be quiet.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        6,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Assisted Dip Machine",
+      "pattern": "horizontal_push",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Dip",
+        "Weighted Push-up",
+        "Cable Rope Pushdown"
+      ],
+      "cue": "Set assistance so the last two reps are hard, torso leaned forward. Control the bottom third instead of dropping into it.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Fly",
+      "pattern": "chest_iso",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Pec Deck",
+        "Incline DB Fly",
+        "Low-to-High Cable Fly"
+      ],
+      "cue": "Pulleys at shoulder height, one foot staggered forward, slight elbow bend locked in. Think of hugging a barrel and squeeze where the hands meet.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Low-to-High Cable Fly",
+      "pattern": "chest_iso",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Fly",
+        "Incline DB Fly",
+        "Pec Deck"
+      ],
+      "cue": "Pulleys at the bottom, hands finish at chin height. Lead with the pinkies and feel the upper chest fibers shorten.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Pec Deck",
+      "pattern": "chest_iso",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Fly",
+        "Incline DB Fly",
+        "Low-to-High Cable Fly"
+      ],
+      "cue": "Seat so the handles are at chest height, back flat on the pad. Hold the squeeze for a full second before letting the arms travel back.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Incline DB Fly",
+      "pattern": "chest_iso",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Fly",
+        "Pec Deck",
+        "Low-to-High Cable Fly"
+      ],
+      "cue": "Bench at 30 degrees, soft elbows that never change angle. Own the stretch at the bottom, then squeeze without clanking the dumbbells.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Seated DB OHP",
+      "pattern": "vertical_push",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Machine Shoulder Press",
+        "Smith Machine Seated Press",
+        "Arnold Press"
+      ],
+      "cue": "Back flat on an upright bench, ribs pulled down so you press not arch. Push the dumbbells slightly in front of the ears and feel the side delt take over.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Standing Barbell OHP",
+      "pattern": "vertical_push",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Seated DB OHP",
+        "Machine Shoulder Press",
+        "Landmine Press"
+      ],
+      "cue": "Squeeze glutes and brace hard so the spine does not become the lever. Move the head back, then through, as the bar passes the forehead.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        5,
+        8
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Machine Shoulder Press",
+      "pattern": "vertical_push",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Seated DB OHP",
+        "Smith Machine Seated Press",
+        "Arnold Press"
+      ],
+      "cue": "Seat so the handles start at ear height, back glued to the pad. Press up and slightly in; stop just short of locking out.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Smith Machine Seated Press",
+      "pattern": "vertical_push",
+      "equipment": "smith",
+      "contraindicated": [],
+      "substitutes": [
+        "Seated DB OHP",
+        "Machine Shoulder Press",
+        "Standing Barbell OHP"
+      ],
+      "cue": "Bench upright under the bar so the path clears the nose. Fixed rail means you can push closer to failure safely.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Arnold Press",
+      "pattern": "vertical_push",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Seated DB OHP",
+        "Machine Shoulder Press",
+        "Smith Machine Seated Press"
+      ],
+      "cue": "Start palms facing you at chin height, rotate as you press. Slow the rotation down; the front and side delt should both light up.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Landmine Press",
+      "pattern": "vertical_push",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Seated DB OHP",
+        "Machine Shoulder Press",
+        "Arnold Press"
+      ],
+      "cue": "Half-kneeling, hips square, bar in one hand at the shoulder. Press up and forward on the arc and keep the ribs stacked over the pelvis.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "DB Lateral Raise",
+      "pattern": "delt_lat",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Lateral Raise",
+        "Machine Lateral Raise",
+        "Leaning Cable Lateral Raise"
+      ],
+      "cue": "Tiny forward lean, elbows slightly bent and leading the hands. Raise to shoulder height only and feel the outer delt, never the traps.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Lateral Raise",
+      "pattern": "delt_lat",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "DB Lateral Raise",
+        "Machine Lateral Raise",
+        "Leaning Cable Lateral Raise"
+      ],
+      "cue": "Cable behind the body at the lowest setting, opposite hand on the frame. Constant tension means you can go light and still burn out the side delt.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Machine Lateral Raise",
+      "pattern": "delt_lat",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "DB Lateral Raise",
+        "Cable Lateral Raise",
+        "Leaning Cable Lateral Raise"
+      ],
+      "cue": "Pads on the outside of the upper arms, not the forearms. Drive with the elbows and pause a beat at the top.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Leaning Cable Lateral Raise",
+      "pattern": "delt_lat",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Lateral Raise",
+        "DB Lateral Raise",
+        "Machine Lateral Raise"
+      ],
+      "cue": "Hang off the upright with the working arm away from the stack. The lean lengthens the delt at the bottom; keep the traps down the whole way.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Reverse Pec Deck",
+      "pattern": "delt_rear",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Face Pull",
+        "Chest-Supported Reverse Fly",
+        "Rope Rear-Delt Row"
+      ],
+      "cue": "Chest on the pad, handles at shoulder height, thumbs down. Open the arms wide and stop when the elbows pass the torso.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Face Pull",
+      "pattern": "delt_rear",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Reverse Pec Deck",
+        "Rope Rear-Delt Row",
+        "Chest-Supported Reverse Fly"
+      ],
+      "cue": "Rope set at eye level, split stance, pull to the forehead. Externally rotate at the end so the knuckles finish pointing behind you.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Chest-Supported Reverse Fly",
+      "pattern": "delt_rear",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Reverse Pec Deck",
+        "Cable Face Pull",
+        "Rope Rear-Delt Row"
+      ],
+      "cue": "Chest on an incline bench so the low back never works. Lead with the pinkies and think about pulling the shoulder blades apart, not together.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Rope Rear-Delt Row",
+      "pattern": "delt_rear",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Reverse Pec Deck",
+        "Cable Face Pull",
+        "Chest-Supported Reverse Fly"
+      ],
+      "cue": "Pulley at chest height, elbows flared to 90 degrees. Row to the collarbones and hold the back of the shoulder tight for a second.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Rope Pushdown",
+      "pattern": "triceps",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Straight-Bar Pushdown",
+        "Overhead Cable Extension",
+        "DB Overhead Extension"
+      ],
+      "cue": "Elbows pinned to the ribs, small forward lean. Spread the rope at the bottom and lock the elbow without shrugging.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Straight-Bar Pushdown",
+      "pattern": "triceps",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Rope Pushdown",
+        "Skullcrusher",
+        "Assisted Dip Machine"
+      ],
+      "cue": "Shoulder-width grip, elbows glued to the sides. Push the bar to the thighs and pause at full extension.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Overhead Cable Extension",
+      "pattern": "triceps",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "DB Overhead Extension",
+        "Skullcrusher",
+        "Cable Rope Pushdown"
+      ],
+      "cue": "Face away from the stack, rope behind the head, ribs down. The long head only grows from that deep stretch, so lower slow.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Skullcrusher",
+      "pattern": "triceps",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Overhead Cable Extension",
+        "DB Overhead Extension",
+        "Cable Rope Pushdown"
+      ],
+      "cue": "EZ bar, elbows angled slightly back over the forehead. Lower to just behind the hairline and extend without letting the elbows drift.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "DB Overhead Extension",
+      "pattern": "triceps",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Overhead Cable Extension",
+        "Skullcrusher",
+        "Cable Rope Pushdown"
+      ],
+      "cue": "Seated with back support, one dumbbell in both hands, elbows narrow. Get the full stretch behind the head, then squeeze the triceps hard at lockout.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Close-Grip Bench Press",
+      "pattern": "triceps",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Skullcrusher",
+        "Straight-Bar Pushdown",
+        "Dip"
+      ],
+      "cue": "Hands just inside shoulder width, elbows tucked tight to the body. Bar to the lower sternum and drive with the back of the arms.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Weighted Pull-up",
+      "pattern": "vertical_pull",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Neutral-Grip Pull-up",
+        "Assisted Pull-up Machine",
+        "Lat Pulldown"
+      ],
+      "cue": "Hang fully, then set the shoulders down before the first inch of pull. Drive the elbows to the back pockets and clear the chin without kipping.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        5,
+        8
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Neutral-Grip Pull-up",
+      "pattern": "vertical_pull",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Weighted Pull-up",
+        "Neutral-Grip Lat Pulldown",
+        "Assisted Pull-up Machine"
+      ],
+      "cue": "Parallel handles, slight backward lean, chest up to the bar. Easier on the shoulder than pronated; feel the lat, not the biceps.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Assisted Pull-up Machine",
+      "pattern": "vertical_pull",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Neutral-Grip Pull-up",
+        "Lat Pulldown",
+        "Weighted Pull-up"
+      ],
+      "cue": "Set assistance so the last two reps are a grind. Pause one second at the top of every rep instead of racing.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Lat Pulldown",
+      "pattern": "vertical_pull",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Neutral-Grip Lat Pulldown",
+        "Assisted Pull-up Machine",
+        "Single-Arm Lat Pulldown"
+      ],
+      "cue": "Thighs locked under the pad, small lean back that you hold constant. Pull the bar to the collarbone with the elbows, not the hands.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Neutral-Grip Lat Pulldown",
+      "pattern": "vertical_pull",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Lat Pulldown",
+        "Single-Arm Lat Pulldown",
+        "Assisted Pull-up Machine"
+      ],
+      "cue": "V-handle, torso almost upright, ribs down. Think elbows into the back pockets and hold the bottom for a beat.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Single-Arm Lat Pulldown",
+      "pattern": "vertical_pull",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Lat Pulldown",
+        "Neutral-Grip Lat Pulldown",
+        "Straight-Arm Pulldown"
+      ],
+      "cue": "Kneel or sit facing the stack, free hand on the hip. Let the shoulder travel up at the top for extra stretch, then pull it all the way down.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Straight-Arm Pulldown",
+      "pattern": "vertical_pull",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Single-Arm Lat Pulldown",
+        "Lat Pulldown",
+        "Neutral-Grip Lat Pulldown"
+      ],
+      "cue": "Hinge slightly at the hips with locked, soft-elbow arms. Sweep the bar to the thighs and feel the lats without any biceps help.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Chest-Supported Row",
+      "pattern": "horizontal_pull",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Machine Row",
+        "Seated Cable Row",
+        "Chest-Supported T-Bar Row"
+      ],
+      "cue": "Chest sealed against the pad so the low back is fully out of the equation. Row the elbows past the ribs and pause where the shoulder blades meet.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Seated Cable Row",
+      "pattern": "horizontal_pull",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Chest-Supported Row",
+        "Machine Row",
+        "Single-Arm DB Row"
+      ],
+      "cue": "Sit tall, knees soft, no rocking the torso. Pull to the navel and let the shoulder blades come apart on the way out.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Machine Row",
+      "pattern": "horizontal_pull",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Chest-Supported Row",
+        "Seated Cable Row",
+        "Chest-Supported T-Bar Row"
+      ],
+      "cue": "Chest on the pad, handles at nipple height. Drive the elbows back and down, and squeeze for a full second.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Single-Arm DB Row",
+      "pattern": "horizontal_pull",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Chest-Supported Row",
+        "Machine Row",
+        "Seated Cable Row"
+      ],
+      "cue": "One hand and one knee on the bench so the spine stays neutral and supported. Row to the hip pocket, not the armpit, and feel the lat stretch at the bottom.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Chest-Supported T-Bar Row",
+      "pattern": "horizontal_pull",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Chest-Supported Row",
+        "Machine Row",
+        "Seated Cable Row"
+      ],
+      "cue": "Chest on the pad, feet planted wide, neutral grip. Pull until the plates nearly touch the pad and control the negative.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Inverted Row",
+      "pattern": "horizontal_pull",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Seated Cable Row",
+        "Chest-Supported Row",
+        "Machine Row"
+      ],
+      "cue": "Bar at hip height, body rigid from heel to ear, heels dug in. Touch the sternum to the bar and keep the hips from sagging.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        8,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Barbell Row from Floor",
+      "pattern": "horizontal_pull",
+      "equipment": "barbell",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Chest-Supported Row",
+        "Machine Row",
+        "Seated Cable Row"
+      ],
+      "cue": "Unsupported hinge under load \u2014 off the table for this client. Use a chest-supported variant instead.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Meadows Row",
+      "pattern": "horizontal_pull",
+      "equipment": "barbell",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Single-Arm DB Row",
+        "Chest-Supported Row",
+        "Machine Row"
+      ],
+      "cue": "Staggered unsupported hinge with a rotational demand \u2014 off the table for this client. Use a supported single-arm row instead.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Incline DB Curl",
+      "pattern": "biceps",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Bayesian Cable Curl",
+        "EZ-Bar Curl",
+        "Cable Curl"
+      ],
+      "cue": "Bench at 60 degrees, arms hanging straight behind the torso. That stretch is the whole point; curl without letting the elbow drift forward.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        10,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "EZ-Bar Curl",
+      "pattern": "biceps",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Curl",
+        "Preacher Curl Machine",
+        "Incline DB Curl"
+      ],
+      "cue": "Elbows fixed at the sides, ribs down, no swing from the hips. Curl to where the forearm is vertical and squeeze there.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Curl",
+      "pattern": "biceps",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "EZ-Bar Curl",
+        "Bayesian Cable Curl",
+        "Preacher Curl Machine"
+      ],
+      "cue": "Stand one step back from the low pulley so tension never drops. Keep the wrists neutral and drive with the biceps, not the shoulders.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Hammer Curl",
+      "pattern": "biceps",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Rope Hammer Curl",
+        "EZ-Bar Curl",
+        "Incline DB Curl"
+      ],
+      "cue": "Neutral grip, elbows pinned, no torso English. Feel the brachialis on the outside of the arm doing the work.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Rope Hammer Curl",
+      "pattern": "biceps",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Hammer Curl",
+        "Cable Curl",
+        "EZ-Bar Curl"
+      ],
+      "cue": "Rope at the low pulley, thumbs up, elbows locked to the ribs. Pull the ends of the rope apart slightly at the top.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Preacher Curl Machine",
+      "pattern": "biceps",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "EZ-Bar Curl",
+        "Incline DB Curl",
+        "Cable Curl"
+      ],
+      "cue": "Armpits over the top of the pad, seat high enough that the shoulders stay down. Control the bottom third instead of bouncing out of the stretch.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        10,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Bayesian Cable Curl",
+      "pattern": "biceps",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Incline DB Curl",
+        "Cable Curl",
+        "EZ-Bar Curl"
+      ],
+      "cue": "Face away from a low pulley, arm behind the body, split stance. Maximum stretch under tension; curl without the elbow travelling forward.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Farmer Carry",
+      "pattern": "carry",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Suitcase Carry",
+        "Plate Pinch Carry",
+        "Wrist Curl"
+      ],
+      "cue": "Heaviest dumbbells you can hold with the ribs stacked over the pelvis. Walk tall and quiet; the grip and the brace are the whole exercise.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        30,
+        60
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Suitcase Carry",
+      "pattern": "carry",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Farmer Carry",
+        "Pallof Press",
+        "Plate Pinch Carry"
+      ],
+      "cue": "One dumbbell only, shoulders and hips level the whole walk. Resist the lean \u2014 that anti-side-bend demand is what you are training.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        30,
+        60
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Plate Pinch Carry",
+      "pattern": "forearm",
+      "equipment": "plate",
+      "contraindicated": [],
+      "substitutes": [
+        "Farmer Carry",
+        "Suitcase Carry",
+        "Cable Rope Hammer Curl"
+      ],
+      "cue": "Pinch two smooth plates together at your sides, arms straight. Hold until the fingers give out, not the shoulders.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        20,
+        45
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Wrist Curl",
+      "pattern": "forearm",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Reverse Wrist Curl",
+        "Plate Pinch Carry",
+        "Cable Rope Hammer Curl"
+      ],
+      "cue": "Forearms on the thighs, wrists hanging past the knees. Let the bar roll to the fingertips, then curl it back up.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        15,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Reverse Wrist Curl",
+      "pattern": "forearm",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Wrist Curl",
+        "Plate Pinch Carry",
+        "Cable Rope Hammer Curl"
+      ],
+      "cue": "Palms down, forearms locked on the thighs. Small range, slow tempo, feel the top of the forearm.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        15,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Hack Squat",
+      "pattern": "squat",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Leg Press",
+        "Smith Machine Squat",
+        "Belt Squat"
+      ],
+      "cue": "Feet mid-platform shoulder width, back and hips flat on the pad. Descend until the hamstring covers the calf and drive through the mid-foot.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Leg Press",
+      "pattern": "squat",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Hack Squat",
+        "Belt Squat",
+        "Smith Machine Squat"
+      ],
+      "cue": "Feet mid-platform, low back never rounding off the seat. Stop the descent the instant the pelvis wants to tuck.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Barbell Back Squat",
+      "pattern": "squat",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Hack Squat",
+        "Smith Machine Squat",
+        "Leg Press"
+      ],
+      "cue": "Brace hard before you unrack, bar tight on the rear delts. Sit between the hips and keep the torso angle constant out of the hole.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        5,
+        8
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Front Squat",
+      "pattern": "squat",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Hack Squat",
+        "Goblet Squat",
+        "Smith Machine Squat"
+      ],
+      "cue": "Elbows high, bar in the front-rack shelf, upright torso. Stop at the depth where the elbows stop dropping.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        5,
+        8
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Goblet Squat",
+      "pattern": "squat",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Hack Squat",
+        "Leg Press",
+        "Smith Machine Squat"
+      ],
+      "cue": "Dumbbell at the sternum, elbows inside the knees at the bottom. Sit straight down and let the counterweight keep the chest tall.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Smith Machine Squat",
+      "pattern": "squat",
+      "equipment": "smith",
+      "contraindicated": [],
+      "substitutes": [
+        "Hack Squat",
+        "Leg Press",
+        "Belt Squat"
+      ],
+      "cue": "Feet slightly forward of the bar so the knees track without the low back leaning. Fixed path lets you push a hard set safely.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Belt Squat",
+      "pattern": "squat",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Hack Squat",
+        "Leg Press",
+        "Smith Machine Squat"
+      ],
+      "cue": "Load hangs from the hips so the spine carries nothing. Best heavy-quad option on a tight-back week.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Walking DB Lunge",
+      "pattern": "lunge",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Reverse Lunge",
+        "Bulgarian Split Squat",
+        "Step-up"
+      ],
+      "cue": "Torso vertical, step long enough that the front shin stays near vertical. Push through the front heel and do not let the back knee crash.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Reverse Lunge",
+      "pattern": "lunge",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Walking DB Lunge",
+        "Step-up",
+        "Bulgarian Split Squat"
+      ],
+      "cue": "Step back, not forward, so the front knee stays quiet. Drive through the front heel to stand and keep the hips square.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Bulgarian Split Squat",
+      "pattern": "lunge",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Reverse Lunge",
+        "Walking DB Lunge",
+        "Step-up"
+      ],
+      "cue": "Back foot on the bench, front foot far enough forward to keep the shin near vertical. Lean the torso slightly and feel the front glute stretch at the bottom.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Step-up",
+      "pattern": "lunge",
+      "equipment": "dumbbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Reverse Lunge",
+        "Bulgarian Split Squat",
+        "Walking DB Lunge"
+      ],
+      "cue": "Box height that puts the thigh at parallel, whole foot on the surface. Do not push off the trailing leg \u2014 the top leg does all of it.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Barbell Hip Thrust",
+      "pattern": "hinge",
+      "equipment": "barbell",
+      "contraindicated": [],
+      "substitutes": [
+        "Machine Hip Thrust",
+        "Glute Bridge",
+        "45-Degree Back Extension"
+      ],
+      "cue": "Bench under the shoulder blades, chin tucked, ribs down. Finish with a hard glute squeeze at the top and stop before the low back arches.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Machine Hip Thrust",
+      "pattern": "hinge",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Barbell Hip Thrust",
+        "Glute Bridge",
+        "Cable Pull-Through"
+      ],
+      "cue": "Pad low across the hips, feet flat and shoulder width. Push through the heels and hold the lockout for a second every rep.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "45-Degree Back Extension",
+      "pattern": "hinge",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Glute Bridge",
+        "Machine Hip Thrust",
+        "Cable Pull-Through"
+      ],
+      "cue": "Pads just below the hip bones, spine neutral, chin tucked. Rise using the glutes and stop level \u2014 never hyperextend.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Pull-Through",
+      "pattern": "hinge",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Glute Bridge",
+        "Machine Hip Thrust",
+        "45-Degree Back Extension"
+      ],
+      "cue": "Rope between the legs, light load only, soft knees. Push the hips back to a stretch, then snap them forward with the glutes.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Glute Bridge",
+      "pattern": "hinge",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Machine Hip Thrust",
+        "Barbell Hip Thrust",
+        "45-Degree Back Extension"
+      ],
+      "cue": "Shoulders on the floor, heels close to the hips. Posteriorly tilt the pelvis first, then lift \u2014 no low-back arch at the top.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Conventional Deadlift",
+      "pattern": "hinge",
+      "equipment": "barbell",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Barbell Hip Thrust",
+        "45-Degree Back Extension",
+        "Machine Hip Thrust"
+      ],
+      "cue": "Heavy loaded spinal hinge \u2014 permanently off the table for this client. Hip thrust is the strength substitute.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        3,
+        6
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Sumo Deadlift",
+      "pattern": "hinge",
+      "equipment": "barbell",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Barbell Hip Thrust",
+        "Machine Hip Thrust",
+        "Leg Press"
+      ],
+      "cue": "Heavy loaded spinal hinge \u2014 permanently off the table for this client. Use a hip thrust or belt squat instead.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        3,
+        6
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Romanian Deadlift",
+      "pattern": "hinge",
+      "equipment": "barbell",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Lying Leg Curl",
+        "Seated Leg Curl",
+        "45-Degree Back Extension"
+      ],
+      "cue": "Loaded spinal hinge under stretch \u2014 permanently off the table for this client. Train hamstrings with leg curls.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Good Morning",
+      "pattern": "hinge",
+      "equipment": "barbell",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "45-Degree Back Extension",
+        "Glute Bridge",
+        "Seated Leg Curl"
+      ],
+      "cue": "Long-lever loaded spinal hinge \u2014 permanently off the table for this client. Back extensions cover the pattern safely.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Lying Leg Curl",
+      "pattern": "ham_iso",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Seated Leg Curl",
+        "Nordic Curl",
+        "45-Degree Back Extension"
+      ],
+      "cue": "Hips pressed into the pad, knee joint lined up with the machine axis. Curl all the way and lower over three seconds.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Seated Leg Curl",
+      "pattern": "ham_iso",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Lying Leg Curl",
+        "Nordic Curl",
+        "Cable Pull-Through"
+      ],
+      "cue": "Lap pad snug, torso upright so the hamstring starts lengthened. Pause hard at the bottom of the curl.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Nordic Curl",
+      "pattern": "ham_iso",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Lying Leg Curl",
+        "Seated Leg Curl",
+        "Glute Bridge"
+      ],
+      "cue": "Ankles anchored, hips locked in line with the shoulders. Lower as slowly as you can control and push back up with the hands if needed.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        5,
+        8
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Leg Extension",
+      "pattern": "quad_iso",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Sissy Squat",
+        "Hack Squat",
+        "Leg Press"
+      ],
+      "cue": "Back against the pad, knee axis matched to the machine pivot. Squeeze at full extension for a count, no swinging the weight up.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Sissy Squat",
+      "pattern": "quad_iso",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Leg Extension",
+        "Hack Squat",
+        "Goblet Squat"
+      ],
+      "cue": "Hold a support, drive the knees forward and the hips back in a straight line from knee to shoulder. Deep quad stretch is the target, not depth for its own sake.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Kickback",
+      "pattern": "glute",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Machine Hip Thrust",
+        "Glute Bridge",
+        "Abduction Machine"
+      ],
+      "cue": "Ankle strap, torso braced against the frame, standing leg soft. Drive the heel back and stop before the low back extends.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Abduction Machine",
+      "pattern": "glute",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Kickback",
+        "Glute Bridge",
+        "Machine Hip Thrust"
+      ],
+      "cue": "Sit upright, slight forward lean to bias the upper glute. Open slowly and hold two seconds at the end range.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        15,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Standing Calf Raise",
+      "pattern": "calf",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Leg Press Calf Raise",
+        "Seated Calf Raise",
+        "Hack Squat"
+      ],
+      "cue": "Balls of the feet on the platform, knees straight but not locked. Full stretch at the bottom, two-second squeeze at the top.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Seated Calf Raise",
+      "pattern": "calf",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Standing Calf Raise",
+        "Leg Press Calf Raise",
+        "Leg Extension"
+      ],
+      "cue": "Knees under the pad at 90 degrees, toes forward. Slow negatives; the soleus responds to time under tension.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Leg Press Calf Raise",
+      "pattern": "calf",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Standing Calf Raise",
+        "Seated Calf Raise",
+        "Leg Press"
+      ],
+      "cue": "Feet low on the platform, safeties set, knees soft. Push through the big toe and pause in the stretch.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Ab Wheel Rollout",
+      "pattern": "core_anti_ext",
+      "equipment": "other",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Crunch",
+        "Plank",
+        "Hollow Body Hold"
+      ],
+      "cue": "Start from the knees with the pelvis tucked under. Roll only as far as you can hold that tuck \u2014 the second the low back arches, you are done.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Cable Crunch",
+      "pattern": "core_anti_ext",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Ab Wheel Rollout",
+        "Decline Crunch",
+        "Hollow Body Hold"
+      ],
+      "cue": "Kneel facing away, rope at the ears, hips fixed in place. Curl the sternum toward the pelvis; do not turn it into a hip hinge.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        12,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Plank",
+      "pattern": "core_anti_ext",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Hollow Body Hold",
+        "Dead Bug",
+        "Ab Wheel Rollout"
+      ],
+      "cue": "Elbows under shoulders, glutes and quads switched on, pelvis tucked. Quality over minutes \u2014 end the set when the hips drop.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        30,
+        60
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Dead Bug",
+      "pattern": "core_anti_ext",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Bird Dog",
+        "Plank",
+        "Hollow Body Hold"
+      ],
+      "cue": "Low back pressed flat into the floor before anything moves. Extend the opposite arm and leg slowly and keep breathing.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": true
+    },
+    {
+      "name": "Hollow Body Hold",
+      "pattern": "core_anti_ext",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Plank",
+        "Dead Bug",
+        "Ab Wheel Rollout"
+      ],
+      "cue": "Low back sealed to the floor, arms and legs extended just above it. Raise the limbs higher the moment the back lifts.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        20,
+        45
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Pallof Press",
+      "pattern": "core_anti_rot",
+      "equipment": "cable",
+      "contraindicated": [],
+      "substitutes": [
+        "Side Plank",
+        "Bird Dog",
+        "Suitcase Carry"
+      ],
+      "cue": "Stand side-on to the pulley, hands at the sternum, feet planted. Press straight out and refuse to let the cable rotate you.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Side Plank",
+      "pattern": "core_anti_rot",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Pallof Press",
+        "Bird Dog",
+        "Suitcase Carry"
+      ],
+      "cue": "Elbow under the shoulder, body one line, top hip pushed to the ceiling. McGill staple \u2014 hold clean sets rather than one long sloppy one.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        20,
+        45
+      ],
+      "mcgill": true
+    },
+    {
+      "name": "Bird Dog",
+      "pattern": "core_anti_rot",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Dead Bug",
+        "Side Plank",
+        "Pallof Press"
+      ],
+      "cue": "Hands under shoulders, knees under hips, spine neutral. Reach opposite arm and leg long without letting the hips tip.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        8,
+        12
+      ],
+      "mcgill": true
+    },
+    {
+      "name": "Hanging Leg Raise",
+      "pattern": "core_flex",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Captain's Chair Knee Raise",
+        "Reverse Crunch",
+        "Decline Crunch"
+      ],
+      "cue": "Dead hang, shoulders packed down, no swinging. Curl the pelvis up at the top \u2014 legs alone is just hip flexors.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        8,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Captain's Chair Knee Raise",
+      "pattern": "core_flex",
+      "equipment": "machine",
+      "contraindicated": [],
+      "substitutes": [
+        "Hanging Leg Raise",
+        "Reverse Crunch",
+        "Decline Crunch"
+      ],
+      "cue": "Back flat against the pad, shoulders down away from the ears. Drive the knees to the chest and tuck the pelvis at the top.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Decline Crunch",
+      "pattern": "core_flex",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Cable Crunch",
+        "Reverse Crunch",
+        "Captain's Chair Knee Raise"
+      ],
+      "cue": "Feet hooked, hands at the temples not behind the head. Peel the spine up one segment at a time and stop halfway.",
+      "spinalLoad": "low",
+      "supported": true,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Reverse Crunch",
+      "pattern": "core_flex",
+      "equipment": "bodyweight",
+      "contraindicated": [],
+      "substitutes": [
+        "Hanging Leg Raise",
+        "Captain's Chair Knee Raise",
+        "Cable Crunch"
+      ],
+      "cue": "Lie flat, hands by the hips, knees at 90 degrees. Lift the hips off the floor using the abs, not momentum from the legs.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Russian Twist",
+      "pattern": "core_flex",
+      "equipment": "other",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Pallof Press",
+        "Side Plank",
+        "Bird Dog"
+      ],
+      "cue": "Loaded spinal rotation \u2014 off the table for this client. Pallof press trains the same job by resisting rotation.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        15,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Loaded Side Bend",
+      "pattern": "core_anti_rot",
+      "equipment": "dumbbell",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Suitcase Carry",
+        "Side Plank",
+        "Pallof Press"
+      ],
+      "cue": "Loaded lateral spinal flexion straight into the QL \u2014 off the table for this client. Suitcase carries cover it safely.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        12,
+        20
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Hanging Windshield Wiper",
+      "pattern": "core_flex",
+      "equipment": "bodyweight",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Hanging Leg Raise",
+        "Pallof Press",
+        "Side Plank"
+      ],
+      "cue": "Loaded spinal rotation under a long lever \u2014 off the table for this client. Straight hanging leg raises instead.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Landmine Rotation",
+      "pattern": "core_anti_rot",
+      "equipment": "barbell",
+      "contraindicated": [
+        "QL"
+      ],
+      "substitutes": [
+        "Pallof Press",
+        "Side Plank",
+        "Bird Dog"
+      ],
+      "cue": "Loaded rotation through the lumbar spine \u2014 off the table for this client. Anti-rotation work only.",
+      "spinalLoad": "high",
+      "supported": false,
+      "repRange": [
+        10,
+        15
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Zone 2 Jog",
+      "pattern": "conditioning",
+      "equipment": "treadmill",
+      "contraindicated": [],
+      "substitutes": [
+        "Incline Treadmill Walk",
+        "Stationary Bike Zone 2",
+        "Elliptical Zone 2"
+      ],
+      "cue": "Conversational pace, nose breathing if you can hold it. If you cannot speak a full sentence, slow down.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        20,
+        45
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Incline Treadmill Walk",
+      "pattern": "conditioning",
+      "equipment": "treadmill",
+      "contraindicated": [],
+      "substitutes": [
+        "Zone 2 Jog",
+        "Stationary Bike Zone 2",
+        "Elliptical Zone 2"
+      ],
+      "cue": "10-12 percent grade, 3.0-3.4 mph, hands off the rails. Steps and heart rate without the joint cost of running.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        20,
+        45
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Sprint Intervals",
+      "pattern": "conditioning",
+      "equipment": "treadmill",
+      "contraindicated": [],
+      "substitutes": [
+        "Bike Sprint Intervals",
+        "Zone 2 Jog",
+        "Rower Intervals"
+      ],
+      "cue": "Full warm-up first, then 15-20 second efforts with 90 seconds easy between. Stop the session when top speed drops, not when the clock ends.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Bike Sprint Intervals",
+      "pattern": "conditioning",
+      "equipment": "bike",
+      "contraindicated": [],
+      "substitutes": [
+        "Sprint Intervals",
+        "Rower Intervals",
+        "Zone 2 Jog"
+      ],
+      "cue": "Seat height so the knee is almost straight at the bottom. All-out 20 seconds, easy spin 100 seconds, repeat.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Stationary Bike Zone 2",
+      "pattern": "conditioning",
+      "equipment": "bike",
+      "contraindicated": [],
+      "substitutes": [
+        "Zone 2 Jog",
+        "Incline Treadmill Walk",
+        "Elliptical Zone 2"
+      ],
+      "cue": "Steady resistance you can hold for the full block, cadence around 85. Lowest-stress way to add cardio on a tight-back week.",
+      "spinalLoad": "none",
+      "supported": true,
+      "repRange": [
+        20,
+        45
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Elliptical Zone 2",
+      "pattern": "conditioning",
+      "equipment": "other",
+      "contraindicated": [],
+      "substitutes": [
+        "Stationary Bike Zone 2",
+        "Incline Treadmill Walk",
+        "Zone 2 Jog"
+      ],
+      "cue": "Upright posture, light hand contact, steady stride. Boring on purpose \u2014 this is recovery-friendly volume.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        20,
+        45
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Rower Intervals",
+      "pattern": "conditioning",
+      "equipment": "other",
+      "contraindicated": [],
+      "substitutes": [
+        "Bike Sprint Intervals",
+        "Sprint Intervals",
+        "Zone 2 Jog"
+      ],
+      "cue": "Legs, then hips, then arms \u2014 never yank with the low back. Keep the spine tall; if the back rounds, end the set.",
+      "spinalLoad": "low",
+      "supported": false,
+      "repRange": [
+        6,
+        10
+      ],
+      "mcgill": false
+    },
+    {
+      "name": "Lactate Threshold Run",
+      "pattern": "conditioning",
+      "equipment": "treadmill",
+      "contraindicated": [],
+      "substitutes": [
+        "Zone 2 Jog",
+        "Sprint Intervals",
+        "Rower Intervals"
+      ],
+      "cue": "Comfortably hard pace you could hold for an hour, held for 8-20 minutes. Breathing should be rhythmic and controlled, not ragged.",
+      "spinalLoad": "none",
+      "supported": false,
+      "repRange": [
+        8,
+        20
+      ],
+      "mcgill": false
+    }
+  ]
+}
