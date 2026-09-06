@@ -72,13 +72,24 @@ def build_row(raw: dict[str, Any]) -> dict[str, Any]:
     stext = raw.get("salary_text") or ""
     if smin is None:
         smin, smax, parsed_text = parse_salary(blob)
-        stext = stext or parsed_text
+        # An annualised hourly rate must be shown as such, or the stored number
+        # and the printed text disagree.
+        stext = parsed_text if "annualised" in parsed_text else (stext or parsed_text)
     if not stext:
         stext = "UNKNOWN"
 
     years, years_raw = parse_experience(blob)
     reds, red_w, greens, green_w = scan_flags(blob)
     hours = estimate_hours(title, company, blob, family, et)
+
+    # An hourly rate annualised at 2080h overstates a part-time role by up to
+    # 3x, so re-annualise against the hours the posting actually implies.
+    if "annualised @2080h" in stext and hours.midpoint < 35:
+        weeks = hours.midpoint * 52
+        smin = int((smin or 0) / 2080 * weeks) or None
+        smax = int((smax or 0) / 2080 * weeks) or None
+        stext = stext.replace("annualised @2080h",
+                              f"annualised at ~{hours.midpoint:.0f}h/wk")
 
     url = raw.get("url") or raw.get("official_job_url") or ""
     app_url = raw.get("application_url") or url

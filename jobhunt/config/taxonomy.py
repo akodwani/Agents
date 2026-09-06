@@ -268,7 +268,7 @@ SALARY_RE = re.compile(
     r"\$\s*(\d{2,3})(?:,(\d{3}))?(?:\s*[kK])?\s*(?:-|–|to)\s*\$?\s*(\d{2,3})(?:,(\d{3}))?(?:\s*[kK])?",
 )
 SALARY_SINGLE_RE = re.compile(r"\$\s*(\d{2,3}),(\d{3})")
-HOURLY_RE = re.compile(r"\$\s*(\d{1,3}(?:\.\d{1,2})?)\s*(?:-|–|to)?\s*\$?\s*(\d{1,3}(?:\.\d{1,2})?)?\s*(?:per hour|/\s*h(?:ou)?r|an hour|hourly)", re.I)
+HOURLY_RE = re.compile(r"\$\s*(\d{1,3}(?:\.\d{1,2})?)\s*(?:-|–|to|and)?\s*\$?\s*(\d{1,3}(?:\.\d{1,2})?)?\s*(?:per hour|/\s*h(?:ou)?r|an hour|hourly)", re.I)
 
 CLOSED_PATTERNS = [
     r"no longer accepting applications",

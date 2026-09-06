@@ -1,6 +1,6 @@
 # Search log
 
-Generated 2026-09-06T13:57:15Z.
+Generated 2026-09-06T16:47:38Z.
 
 ## Run conditions - read this first
 
@@ -37,7 +37,7 @@ python -m jobhunt.cli report
 
 ## Iterations
 
-### Iteration 1 (2026-09-06T13:56:39Z → 2026-09-06T13:56:39Z)
+### Iteration 1 (2026-09-06T16:47:37Z → 2026-09-06T16:47:37Z)
 
 - candidates seen: 80
 - verified: 0
@@ -45,7 +45,7 @@ python -m jobhunt.cli report
 - rejected: 0
 - why this iteration expanded: seed sweep: Tier A titles (development, physical production, AI creative) against public ATS boards
 
-### Iteration 2 (2026-09-06T13:56:39Z → 2026-09-06T13:56:39Z)
+### Iteration 2 (2026-09-06T16:47:37Z → 2026-09-06T16:47:37Z)
 
 - candidates seen: 80
 - verified: 0
@@ -53,7 +53,7 @@ python -m jobhunt.cli report
 - rejected: 0
 - why this iteration expanded: expansion: major NYC employers surfaced via SmartRecruiters/Workday; added lifestyle-first query axis (35-hour weeks)
 
-### Iteration 3 (2026-09-06T13:56:39Z → 2026-09-06T13:56:39Z)
+### Iteration 3 (2026-09-06T16:47:37Z → 2026-09-06T16:47:37Z)
 
 - candidates seen: 80
 - verified: 0
@@ -61,7 +61,7 @@ python -m jobhunt.cli report
 - rejected: 0
 - why this iteration expanded: expansion: Tier B research/editorial and film-nonprofit employers; targeted A24 board after A24 appeared with no direct link
 
-### Iteration 4 (2026-09-06T13:56:39Z → 2026-09-06T13:56:39Z)
+### Iteration 4 (2026-09-06T16:47:37Z → 2026-09-06T16:47:37Z)
 
 - candidates seen: 60
 - verified: 0
@@ -69,7 +69,7 @@ python -m jobhunt.cli report
 - rejected: 0
 - why this iteration expanded: expansion: production finance (matches candidate's finance background), trend research, casting-adjacent and creative-technology titles
 
-### Iteration 5 (2026-09-06T13:56:39Z → 2026-09-06T13:56:39Z)
+### Iteration 5 (2026-09-06T16:47:37Z → 2026-09-06T16:47:37Z)
 
 - candidates seen: 80
 - verified: 90
@@ -85,9 +85,9 @@ python -m jobhunt.cli report
 4. New titles this iteration: none.
 5. Analytics/corporate over-production check: 0 of 89 admitted jobs are analyst/ops-titled - acceptable.
 6. Generic-title risk inside entertainment employers: mitigated by crawling whole boards rather than title-searching only.
-7. Film-proximity vs acting freedom: mean score of film-side families 60.9 vs freedom-professional 65.5; the model is not over-rewarding film proximity.
+7. Film-proximity vs acting freedom: mean score of film-side families 60.9 vs freedom-professional 66.1; the model is not over-rewarding film proximity.
 8. Flexible professional alternatives: 26 admitted.
-9. Links failing verification: 0 DEAD, 85 still UNCERTAIN above score 55.
+9. Links failing verification: 0 DEAD, 86 still UNCERTAIN above score 55.
 10. Blocked or inaccessible sources needing an alternate route: boards-api.greenhouse.io, api.lever.co, api.ashbyhq.com, apply.workable.com, api.smartrecruiters.com, job-boards.greenhouse.io, jobs.lever.co, jobs.ashbyhq.com, condenast.wd5.myworkdayjobs.com, www.entertainmentcareers.net, www.a24films.com, runwayml.com, www.nytimes.com, www.idealist.org, www.linkedin.com.
 
 
@@ -168,7 +168,7 @@ Total distinct queries: **38**
 ## Job funnel
 
 - UNCERTAIN: 90
-- tier STRETCH: 44
+- tier STRETCH: 45
 - tier APPLY_GOOD_FIT: 41
-- tier RESEARCH_ONLY: 4
+- tier RESEARCH_ONLY: 3
 - tier REJECT: 1

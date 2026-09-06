@@ -90,6 +90,13 @@ def remote_employable_from_ny(blob: str) -> bool | None:
 # ---------------------------------------------------------------- salary ---
 def parse_salary(blob: str) -> tuple[int | None, int | None, str]:
     b = blob or ""
+    # Hourly first: "$30 - $40 per hour" would otherwise be read as $30K-$40K.
+    m = HOURLY_RE.search(b)
+    if m:
+        lo_h = float(m.group(1))
+        hi_h = float(m.group(2)) if m.group(2) else lo_h
+        if 12 <= lo_h <= 200:
+            return int(lo_h * 2080), int(hi_h * 2080), clean(m.group(0)) + " (annualised @2080h)"
     m = SALARY_RE.search(b)
     if m:
         lo = _money(m.group(1), m.group(2))
